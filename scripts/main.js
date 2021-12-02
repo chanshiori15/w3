@@ -4,8 +4,8 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'images/pipo-enemy003b.png') {
-    myImage.setAttribute ('src','pipo-enemy003b.png');
+  if(mySrc === 'images/firefox-icon.png') {
+    myImage.setAttribute ('src','images/pipo-enemy003b.png');
   } else {
     myImage.setAttribute ('src','images/firefox-icon.png');
   }
